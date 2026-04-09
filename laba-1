@@ -11,8 +11,8 @@ int main() {
     wcin.imbue(locale());
     wcout.imbue(locale());
 
-    wstring input;
-    wchar_t choice;
+    wstring input;  // Широкий строковой тип 
+    wchar_t choice;  // Переменная для хранения выбора регистра (L или U)
 
     // Ввод строки
     wcout << L"Введите строку: ";
